@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b1b2f;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat container */
+#chat {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #444;
+    background-color: #2c2c3e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Input and buttons */
+input, select, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4b6cf7;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a54c7;
+}
+
+/* Navbar for profile / servers */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14142b;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Friend requests list */
+.friend-list, .server-list {
+    background-color: #2c2c3e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.friend-item, .server-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/* Notifications */
+.notification {
+    color: #4b6cf7;
+    font-weight: bold;
+}
